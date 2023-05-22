@@ -1,0 +1,71 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: #4f200d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cla form .display {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px 0px;
+}
+
+.cla {
+  background-color: #ff8400;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.cla form input {
+  border: 0;
+  outline: 0;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),
+    5px 5px 15px rgba(0, 0, 0, 0.5);
+  background: transparent;
+  font-size: 20px;
+  color: #f6f1e9;
+  cursor: pointer;
+  margin: 10px;
+}
+#equl {
+  width: 145px;
+  color: #4f200d;
+}
+form .display input {
+  text-align: right;
+  flex: 1;
+  color: #000;
+  font-size: 50px;
+  box-shadow: none;
+}
+.cla form input .equl {
+  width: 145px;
+}
+#op {
+  color: #4f200d;
+}
+h1 {
+  padding-left: 6%;
+  margin-left: 5%;
+  position: absolute;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.btn input:hover {
+  color: white;
+  background-color: #000;
+  width: 50px;
+  height: 50px;
+}
